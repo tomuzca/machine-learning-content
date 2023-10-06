@@ -60,7 +60,7 @@ new_data = np.array([[2, 3], [0, 4], [3, 1]])
 predictions = model.predict(new_data)
 ```
 
-En este código de ejemplo generamos 2 clusters (hiperparámetro `n_clusters`) y establecemos la semilla ya que es un modelo con un componente de inicialización aleatorio.
+En este código de ejemplo generamos 3 clusters (hiperparámetro `n_clusters`) y establecemos la semilla ya que es un modelo con un componente de inicialización aleatorio.
 
 Una vez hemos entrenado el modelo podemos obtener las etiquetas de qué cluster se asocia a cada punto con el atributo `labels_` del modelo (`model.labels_`). También podemos obtener las coordenadas de los centroides de cada cluster con el atributo `cluster_centers_` del modelo (`model.cluster_centers_`).
 
